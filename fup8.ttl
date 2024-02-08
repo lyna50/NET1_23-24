@@ -4,94 +4,94 @@
 @prefix rdfs: <http://www.w3.org/2000/01/rdf-schema#> .
 @prefix vs: <http://www.w3.org/2003/06/sw-vocab-status/ns#> .
 @prefix o: <http://omeka.org/s/vocabs/o#> .
-@prefix fup8: <https://jardindesconnaissances.univ-paris8.fr/onto/fup8#> .
+@prefix educ: <https://jardindesconnaissances.univ-paris8.fr/onto/educ#> .
 @prefix teach: <http://linkedscience.org/teach/ns#> .
 @prefix foaf: <http://xmlns.com/foaf/0.1/>.
 @prefix schema: <http://schema.org/>.
 
-<https://jardindesconnaissances.univ-paris8.fr/onto/fup8> a owl:Ontology ;
-    dcterms:title "Formation Université Paris 8" .
+<https://jardindesconnaissances.univ-paris8.fr/onto/educ> a owl:Ontology ;
+    dcterms:title "Education" .
 
-fup8:Departement a rdfs:Class ;
+educ:Eleve a rdfs:Class ;
     rdfs:label "Département" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:University a rdfs:Class ;
+educ:University a rdfs:Class ;
     rdfs:label "Université" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:UFR a rdfs:Class ;
+educ:UFR a rdfs:Class ;
     rdfs:label "Unité de Formation et de Recherche" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:Mention a rdfs:Class ;
+educ:Mention a rdfs:Class ;
     rdfs:label "Mention" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:SalleCours a rdfs:Class ;
+educ:SalleCours a rdfs:Class ;
     rdfs:label "Salle de cours" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .    
 
-fup8:Parcours a rdfs:Class ;
+educ:Parcours a rdfs:Class ;
     rdfs:label "Parcours" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:UE a rdfs:Class ;
+educ:UE a rdfs:Class ;
     rdfs:label "Unité d'enseignement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:EC a rdfs:Class ;
+educ:EC a rdfs:Class ;
     rdfs:label "Élément constitutif" ;
     rdfs:domain o:Resource ;
     owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
 
-fup8:Etudiant a rdfs:Class ;
+educ:Etudiant a rdfs:Class ;
     rdfs:label "Etudiant" ;
     rdfs:domain o:Resource ;
     owl:sameAs foaf:Person ;    
     vs:term_status "experimental" .
 
-fup8:Seminaire a rdfs:Class ;
+educ:Seminaire a rdfs:Class ;
     rdfs:label "Séminaire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:EcoleDoctorale a rdfs:Class ;
+educ:EcoleDoctorale a rdfs:Class ;
     rdfs:label "Ecole Doctorale" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:Intervention a rdfs:Class ;
+educ:Intervention a rdfs:Class ;
     rdfs:label "Intervention" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:Laboratoire a rdfs:Class ;
+educ:Laboratoire a rdfs:Class ;
     rdfs:label "Laboratoire" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:code a rdf:Property ;
+educ:code a rdf:Property ;
     rdfs:label "Code EC" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-fup8:ects a rdf:Property ;
+educ:ects a rdf:Property ;
     rdfs:label "ects" ;
     dcterms:description "European Credits Transfer System";
     rdfs:domain o:Resource ;
     owl:sameAs teach:ects ;
     vs:term_status "experimental" .
 
-fup8:semestre a rdf:Property ;
+educ:semestre a rdf:Property ;
     rdfs:label "semestre" ;
     rdfs:domain o:Resource ;
     owl:sameAs "ov:semester" ;
