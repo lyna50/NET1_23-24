@@ -22,209 +22,24 @@ educ:Enseignants a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:Parents a rdfs:Class ;
-    rdfs:label "Parents" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:Gouvernement a rdfs:Class ;
-    rdfs:label "Gouvernement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:Conseillers a rdfs:Class ;
-    rdfs:label "Conseillers" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .    
-
-educ:Tuteur a rdfs:Class ;
-    rdfs:label "Tuteur" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:Organismes a rdfs:Class ;
-    rdfs:label "Organismes" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
 educ:Etablissement a rdfs:Class ;
     rdfs:label "Etablissement" ;
     rdfs:domain o:Resource ;
-    owl:sameAs schema:Course ;    
     vs:term_status "experimental" .
 
-educ:Surveillants a rdfs:Class ;
-    rdfs:label "Surveillants" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs foaf:Person ;    
-    vs:term_status "experimental" .
-
-educ:Seminaire a rdfs:Class ;
-    rdfs:label "Séminaire" ;
+educ:prenomEleve a rdf:Property ;
+    rdfs:label "PrenomEleve" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:EcoleDoctorale a rdfs:Class ;
-    rdfs:label "Ecole Doctorale" ;
+educ:adresseEtablissement a rdf:Property ;
+    rdfs:label "adresseEtablissement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:Intervention a rdfs:Class ;
-    rdfs:label "Intervention" ;
+educ:matiereEnseignee a rdf:Property ;
+    rdfs:label "matiereEnseignee" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:Laboratoire a rdfs:Class ;
-    rdfs:label "Laboratoire" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
-educ:code a rdf:Property ;
-    rdfs:label "Code EC" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:ects a rdf:Property ;
-    rdfs:label "ects" ;
-    dcterms:description "European Credits Transfer System";
-    rdfs:domain o:Resource ;
-    owl:sameAs teach:ects ;
-    vs:term_status "experimental" .
-
-educ:semestre a rdf:Property ;
-    rdfs:label "semestre" ;
-    rdfs:domain o:Resource ;
-    owl:sameAs "ov:semester" ;
-    vs:term_status "experimental" .
-
-educ:coef a rdf:Property ;
-    rdfs:label "coefficient" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:vhec a rdf:Property ;
-    rdfs:label "Volume Horaire en présentiel" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:vhch a rdf:Property ;
-    rdfs:label "Volume Horaire chargé" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:cch a rdf:Property ;
-    rdfs:label "Choix du Créneau Horaire" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:pcCM a rdf:Property ;
-    rdfs:label "% Cours magistraux" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:pcTD a rdf:Property ;
-    rdfs:label "% Travaux dirigés" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:pcTP a rdf:Property ;
-    rdfs:label "% Travaux pratiques" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:sd a rdf:Property ;
-    rdfs:label "Seuil dédoublement" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:libre a rdf:Property ;
-    rdfs:label "EC Libre" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:mutuaDst a rdf:Property ;
-    rdfs:label "Mutualiser avec les parcours" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:mutuaSrc a rdf:Property ;
-    rdfs:label "Mutualiser à partir du parcours" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:nbg a rdf:Property ;
-    rdfs:label "Nombre de groupe" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasIntervenant a rdf:Property ;
-    rdfs:label "A comme intervenant" ;
-    rdfs:comment "L'intervenant enseignant l'EC" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasEtudiant a rdf:Property ;
-    rdfs:label "A comme étudiant" ;
-    rdfs:comment "A comme étudiant" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasEC a rdf:Property ;
-    rdfs:label "A comme EC" ;
-    rdfs:comment "Relation avec une EC" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasUE a rdf:Property ;
-    rdfs:label "A comme UE" ;
-    rdfs:comment "Relation avec une UE" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasParcours a rdf:Property ;
-    rdfs:label "A comme Parcours" ;
-    rdfs:comment "Relation avec un Parcours" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasUniversity a rdf:Property ;
-    rdfs:label "A comme Université" ;
-    rdfs:comment "Relation avec une université" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasDepartement a rdf:Property ;
-    rdfs:label "A comme Département" ;
-    rdfs:comment "Relation avec un Département" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasUFR a rdf:Property ;
-    rdfs:label "A comme UFR" ;
-    rdfs:comment "Relation avec une UFR" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasMention a rdf:Property ;
-    rdfs:label "A comme Mention" ;
-    rdfs:comment "Relation avec une mention" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasSeminaire a rdf:Property ;
-    rdfs:label "A comme Séminaire" ;
-    rdfs:comment "Relation avec un séminaire" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasEcoleDoctorale a rdf:Property ;
-    rdfs:label "A comme Ecole Doctorale" ;
-    rdfs:comment "Relation avec une école doctorale" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
-
-educ:hasLaboratoire a rdf:Property ;
-    rdfs:label "A comme laboratoire" ;
-    rdfs:comment "Relation avec un laboratoire" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
