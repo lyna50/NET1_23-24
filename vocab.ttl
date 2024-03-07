@@ -22,13 +22,13 @@ educ:Enseignants a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:Etablissement a rdfs:Class ;
+educ:etablissement a rdfs:Class ;
     rdfs:label "Etablissement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
 educ:prenomEleve a rdf:Property ;
-    rdfs:label "PrenomEleve" ;
+    rdfs:label "PrenomEleve"; 
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
