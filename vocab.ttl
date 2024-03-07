@@ -32,14 +32,16 @@ educ:prenomEleve a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:matiereEnseignee a rdf:Property ;
+    rdfs:label "matiereEnseignee" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 educ:adresseEtablissement a rdf:Property ;
     rdfs:label "adresseEtablissement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:matiereEnseignee a rdf:Property ;
-    rdfs:label "matiereEnseignee" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
+
 
 
