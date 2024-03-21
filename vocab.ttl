@@ -69,6 +69,12 @@ educ:Projet a rdfs:Class ;
 
 
 
+
+
+
+
+
+
 educ:prenomEleve a rdf:Property ;
     rdfs:label "PrenomEleve"; 
     rdfs:domain o:Resource ;
@@ -165,7 +171,31 @@ educ:lieudustage a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+
 educ:remuneration a rdf:Property ;
     rdfs:label "remuneration" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:capacitedacceuil a rdf:Property ;
+    rdfs:label "capacitedacceuil" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:localisation a rdf:Property ;
+    rdfs:label "localisation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
+
+
+
+
+
+
+
