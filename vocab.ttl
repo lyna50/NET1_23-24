@@ -22,10 +22,52 @@ educ:Enseignants a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:etablissement a rdfs:Class ;
+educ:Etablissement a rdfs:Class ;
     rdfs:label "Etablissement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:Cours a rdfs:Class ;
+    rdfs:label "Cours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Salle a rdfs:Class ;
+    rdfs:label "Salle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Projet a rdfs:Class ;
+    rdfs:label "Projet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Evaluation a rdfs:Class ;
+    rdfs:label "Evaluation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Eleves a rdfs:Class ;
+    rdfs:label "Eleves" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Conference a rdfs:Class ;
+    rdfs:label "Conference" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Stage a rdfs:Class ;
+    rdfs:label "Stage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Projet a rdfs:Class ;
+    rdfs:label "Projet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
 
 educ:prenomEleve a rdf:Property ;
     rdfs:label "PrenomEleve"; 
@@ -42,6 +84,44 @@ educ:adresseEtablissement a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:nomcours a rdf:Property ;
+    rdfs:label "nomcours" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:numeroSalle a rdf:Property ;
+    rdfs:label "numeroSalle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:numeroSalle a rdf:Property ;
+    rdfs:label "numeroSalle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:nomProjet a rdf:Property ;
+    rdfs:label "nomProjet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:typeEvaluation a rdf:Property ;
+    rdfs:label "typeEvaluation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:titreConference a rdf:Property ;
+    rdfs:label "titreConference" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:entrepriseStage a rdf:Property ;
+    rdfs:label "entrepriseStage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:nomProgramme a rdf:Property ;
+    rdfs:label "nomProgramme" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
