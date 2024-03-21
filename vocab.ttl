@@ -125,11 +125,31 @@ educ:nomProgramme a rdf:Property ;
     vs:term_status "experimental" .
 
 educ:adresseconference a rdf:Property ;
+    rdfs:label "adresseConference" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+educ:dateConferenceonference a rdf:Property ;
+    rdfs:label "date" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:adresse a rdf:Property ;
     rdfs:label "adresse" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:dateconference a rdf:Property ;
-    rdfs:label "date" ;
+educ:descriptionProjet a rdf:Property ;
+    rdfs:label "descriptionProjet" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:responsableduprojet a rdf:Property ;
+    rdfs:label "responsableduprojet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
