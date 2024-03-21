@@ -124,4 +124,12 @@ educ:nomProgramme a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:adresse a rdf:Property ;
+    rdfs:label "adresse" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:date a rdf:Property ;
+    rdfs:label "date" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
