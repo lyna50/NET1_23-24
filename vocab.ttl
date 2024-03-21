@@ -114,7 +114,7 @@ educ:dateConference a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:entrepriseStage a rdf:Property ;
+educ:nomdelentreprise a rdf:Property ;
     rdfs:label "entrepriseStage" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
