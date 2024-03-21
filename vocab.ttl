@@ -187,13 +187,25 @@ educ:localisation a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:datedenaissance a rdf:Property ;
+    rdfs:label "datedenaissance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:age a rdf:Property ;
+    rdfs:label "age" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:genre a rdf:Property ;
+    rdfs:label "genre" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
-
-
-
-
+educ:niveauscolaire a rdf:Property ;
+    rdfs:label "niveauscolaire" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
