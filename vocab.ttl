@@ -207,7 +207,18 @@ educ:niveauscolaire a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:prenomdelenseignant a rdf:Property ;
+    rdfs:label "prenomdelenseignant" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:adresseemail a rdf:Property ;
+    rdfs:label "adresseemail" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
-
+educ:niveaudenseignement a rdf:Property ;
+    rdfs:label "niveaudenseignement" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
