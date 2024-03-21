@@ -155,5 +155,17 @@ educ:objectifduprojet a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:duréedustage a rdf:Property ;
+    rdfs:label "duréedustage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:lieudustage a rdf:Property ;
+    rdfs:label "lieudustage" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:remuneration a rdf:Property ;
+    rdfs:label "objectifduprojet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
