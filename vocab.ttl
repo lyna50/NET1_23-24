@@ -109,7 +109,7 @@ educ:typeEvaluation a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:titreConference a rdf:Property ;
+educ:dateConference a rdf:Property ;
     rdfs:label "titreConference" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
