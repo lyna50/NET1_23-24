@@ -225,21 +225,20 @@ educ:niveaudenseignement a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:nomdututeur a rdfs:Class ;
+educ:nnomdututeur a rdf:Property ;
     rdfs:label "nomdututeur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:numerodetelephone a rdfs:Class ;
+educ:numerodetelephone a rdf:Property ;
     rdfs:label "numerodetelephone" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:disponibilite a rdfs:Class ;
+educ:disponibilite a rdf:Property ;
     rdfs:label "disponibilite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
-
 
 
 
