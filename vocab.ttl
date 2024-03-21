@@ -130,8 +130,8 @@ educ:adresseconference a rdf:Property ;
     vs:term_status "experimental" .
 
 
-educ:dateConferenceonference a rdf:Property ;
-    rdfs:label "date" ;
+educ:dateConference a rdf:Property ;
+    rdfs:label "dateConference" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -150,6 +150,10 @@ educ:responsableduprojet a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:objectifduprojet a rdf:Property ;
+    rdfs:label "objectifduprojet" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
