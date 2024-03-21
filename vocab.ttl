@@ -115,7 +115,7 @@ educ:dateConference a rdf:Property ;
     vs:term_status "experimental" .
 
 educ:nomdelentreprise a rdf:Property ;
-    rdfs:label "entrepriseStage" ;
+    rdfs:label "nomdelentreprise" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -155,8 +155,8 @@ educ:objectifduprojet a rdf:Property ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:duréedustage a rdf:Property ;
-    rdfs:label "duréedustage" ;
+educ:dureedustage a rdf:Property ;
+    rdfs:label "dureedustage" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
@@ -166,6 +166,6 @@ educ:lieudustage a rdf:Property ;
     vs:term_status "experimental" .
 
 educ:remuneration a rdf:Property ;
-    rdfs:label "objectifduprojet" ;
+    rdfs:label "remuneration" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
