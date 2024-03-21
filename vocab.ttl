@@ -67,7 +67,10 @@ educ:Projet a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-
+educ:tuteur a rdfs:Class ;
+    rdfs:label "tuteur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
@@ -221,4 +224,22 @@ educ:niveaudenseignement a rdf:Property ;
     rdfs:label "niveaudenseignement" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:nomdututeur a rdfs:Class ;
+    rdfs:label "nomdututeur" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:numerodetelephone a rdfs:Class ;
+    rdfs:label "numerodetelephone" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:disponibilite a rdfs:Class ;
+    rdfs:label "disponibilite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
 
