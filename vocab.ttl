@@ -67,10 +67,56 @@ educ:Projet a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:tuteur a rdfs:Class ;
+educ:Tuteur a rdfs:Class ;
     rdfs:label "tuteur" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:Conseillerdorientation a rdfs:Class ;
+    rdfs:label "conseillerdorientation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:AssociationsEtudiantes a rdfs:Class ;
+    rdfs:label "associationsEtudiantes" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:Boursedetude a rdfs:Class ;
+    rdfs:label "boursedetude" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 
@@ -239,6 +285,64 @@ educ:disponibilite a rdf:Property ;
     rdfs:label "disponibilite" ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
+
+educ:experienceprofessionnelle a rdf:Property ;
+    rdfs:label "experienceprofessionnelle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:orientationprofessionnelle a rdf:Property ;
+    rdfs:label "orientationprofessionnelle" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:suivietsoutien a rdf:Property ;
+    rdfs:label "suivietsoutien" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:conseilssurlesadmissions a rdf:Property ;
+    rdfs:label "conseilssurlesadmissions" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:domainedinteret a rdf:Property ;
+    rdfs:label "domainedinteret " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:membre a rdf:Property ;
+    rdfs:label "membre " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:activites a rdf:Property ;
+    rdfs:label "activites " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:montantdelabourse a rdf:Property ;
+    rdfs:label "montantdelabourse " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:criteresdadmissibilite  a rdf:Property ;
+    rdfs:label "criteresdadmissibilite " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:niveaudetude  a rdf:Property ;
+    rdfs:label "niveaudetude " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:datelimitedecandidature  a rdf:Property ;
+    rdfs:label "datelimitedecandidature " ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+
+
 
 
 
