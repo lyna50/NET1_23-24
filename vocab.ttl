@@ -87,37 +87,30 @@ educ:Boursedetude a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:Programmedetudealetranger  a rdfs:Class ;
+    rdfs:label "Programmedetudealetranger" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:Programmededucationadistance a rdfs:Class ;
+    rdfs:label "Programmededucationadistance" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:Projetderecherchecollaborative a rdfs:Class ;
+    rdfs:label "Projetderecherchecollaborative" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
+educ:Technologieseducatives a rdfs:Class ;
+    rdfs:label "Technologieseducatives" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+educ:Bibliotheque a rdfs:Class ;
+    rdfs:label "Bibliotheque" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
 
 
 
