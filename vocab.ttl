@@ -112,6 +112,26 @@ educ:Bibliotheque a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
+educ:EducationAuxNouvellesTechnologies a rdfs:Class ;
+    rdfs:label "Educationauxnouvellestechnologies" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:IntelligenceArtificielleEnEducation a rdfs:Class ;
+    rdfs:label "Educationauxnouvellestechnologies" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:SecuriteInformatiqueEnEducation a rdfs:Class ;
+    rdfs:label "SecuriteInformatiqueEnEducation" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
+educ:EducationAlaCyberSecurite a rdfs:Class ;
+    rdfs:label "EducationAlaCyberSecurite" ;
+    rdfs:domain o:Resource ;
+    vs:term_status "experimental" .
+
 
 
 
