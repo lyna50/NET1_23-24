@@ -97,10 +97,6 @@ educ:Programmededucationadistance a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:Projetderecherchecollaborative a rdfs:Class ;
-    rdfs:label "Projetderecherchecollaborative" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
 educ:Technologieseducatives a rdfs:Class ;
     rdfs:label "Technologieseducatives" ;
