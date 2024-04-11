@@ -122,10 +122,6 @@ educ:IntelligenceArtificielleEnEducation a rdfs:Class ;
     rdfs:domain o:Resource ;
     vs:term_status "experimental" .
 
-educ:SecuriteInformatiqueEnEducation a rdfs:Class ;
-    rdfs:label "SecuriteInformatiqueEnEducation" ;
-    rdfs:domain o:Resource ;
-    vs:term_status "experimental" .
 
 educ:EducationAlaCyberSecurite a rdfs:Class ;
     rdfs:label "EducationAlaCyberSecurite" ;
