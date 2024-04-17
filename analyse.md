@@ -10,8 +10,9 @@ J'ai également crée une item , sa classe est : Bourse d'étude , son titre est
 J'ai crée aussi une classe qui s'appelle " tuteur " , son titre est " Profil du tuteur " et j'ai associé à cette classe des propriétés comme : son adresse e-mail , son nom , son numéro de téléphone et ses disponnibilités et toutes ses propriétés explique bien le profil du tuteur et nous donne des informations sur le tuteur . 
 
 ## 3)- Les ressources template  : 
-
+par exemple : boursedetude c une ressource template et pourquoi je l'ai créer : pour definir les critères liés à la bourse d'etude 
 ## 4)- Les items   :
-j'ai crée une liste de 43 items qui me semble intéressent pour le thème que j'ai choisi " l'éducation " . et ces items m'ont aidé à bien comprendre et avoir bien détaillé 
+j'ai crée une liste de 43 items qui me semble intéressent pour le thème que j'ai choisi " l'éducation " . et ces items m'ont aidé à bien comprendre et avoir bien détaillé . poiur les items je les explique : Bourse pour les étudiants : item , je l'ai créer et associé deux autre autres item 
 
 ## 4)- Illustrer en créant un lien vers la base omeka par exemple:   
+https://net-24.jardindesconnaissances.fr/admin/item/372 
